@@ -1,4 +1,4 @@
-package ru.mirea.denega.camera;
+package com.example.camera;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ru.mirea.denega.camera", appContext.getPackageName());
+        assertEquals("com.example.camera", appContext.getPackageName());
     }
 }
